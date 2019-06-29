@@ -1,0 +1,262 @@
+---
+title: "Test NAG signature on TCGA NSCLC Data"
+author: "Dennis Wang"
+date: "6/19/2019"
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.pos = 'H')
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.width=12, fig.height=8)
+require('cgdsr')
+require('survival')
+library('HGNChelper')
+library(survminer)
+
+setwd("~/Google Drive/Manuscripts/Prognostic mutation burden/methods")
+prognostic.names <- as.character(read.table("NAG_genes.txt", comment.char="", header=T, sep="\t")[,1])
+sig.genes <- read.table("RNA_signature.csv", sep=",", header=TRUE, row.names=1)
+sig.genes <- sig.genes[which(sig.genes[,1] != 0),]
+gene.names <- unique(c(prognostic.names))
+
+# load CNV and RNAseq data from cBioportal
+mycgds = CGDS("https://www.cbioportal.org/")
+```
+
+## Read TCGA data from Lung Adenocarcinoma (TCGA, Nature 2014) and Lung Squamous Cell Carcinoma (TCGA, Nature 2012)
+
+```{r tcga_download, echo=F,  out.width='12cm', out.height='12cm', fig.show='hold'}
+gene.names <- split(gene.names, ceiling(seq_along(gene.names)/100))
+luad.cnv <-c(); luad.mut <- c()
+lusc.cnv <-c(); lusc.mut <- c()
+for(i in 1:length(gene.names)){
+  luad.cnv <- cbind(luad.cnv, as.matrix(getProfileData(mycgds, gene.names[[i]],"luad_tcga_pub_linear_CNA","luad_tcga_pub_3way_complete"))) # download copy number
+  lusc.cnv <- cbind(lusc.cnv, as.matrix(getProfileData(mycgds, gene.names[[i]],"lusc_tcga_pub_linear_CNA","lusc_tcga_pub_3way_complete"))) # download copy number
+  luad.mut <- cbind(luad.mut, as.matrix(getProfileData(mycgds, gene.names[[i]],"luad_tcga_pub_mutations","luad_tcga_pub_3way_complete"))) # download mutations
+  lusc.mut <- cbind(lusc.mut, as.matrix(getProfileData(mycgds, gene.names[[i]],"lusc_tcga_pub_mutations","lusc_tcga_pub_3way_complete"))) # download mutations
+}
+gene.names <- unlist(gene.names)
+
+luad.rna <-  as.matrix(getProfileData(mycgds, rownames(sig.genes),"luad_tcga_pub_rna_seq_v2_mrna","luad_tcga_pub_3way_complete")) # download expression
+lusc.rna <-  as.matrix(getProfileData(mycgds, rownames(sig.genes),"lusc_tcga_pub_rna_seq_mrna","lusc_tcga_pub_3way_complete")) # download expression
+
+```
+
+
+
+## Encode alterations (CNV and SNV) as binary events
+```{r binary_event, echo=F,  out.width='12cm', out.height='12cm', fig.show='hold'}
+
+get.alterations <- function(tcga.mut, tcga.cnv, genes){
+# make sure the copy number and mutation matrix have same genes and samples
+tcga.genes <- intersect(rownames(tcga.mut), rownames(tcga.cnv))
+tcga.samps <- intersect(colnames(tcga.mut), colnames(tcga.cnv))
+tcga.cnv <- tcga.cnv[tcga.genes, tcga.samps] 
+tcga.mut <- tcga.mut[tcga.genes, tcga.samps]
+
+# dichotomize mutation: mutated == 1 and no mutation == 0  
+tcga.mut[is.na(tcga.mut) | tcga.mut == "NaN"] <- 0  # replace NA with no mutation label
+tcga.mut[tcga.mut != 0] <- 1 
+class(tcga.mut) <- "numeric"
+
+# dichotomize copy number:  set threshold for copy change at +/-0.5 
+#tcga.cnv = log2(tcga.cnv+2) - 1 
+tcga.cnv[tcga.cnv < 0.5 & tcga.cnv > -0.5] <- 0
+tcga.cnv[tcga.cnv != 0] <- 1
+
+# combine the two matrices and make sure it is a binary matrix (samples X genes)
+tcga.mat <- tcga.cnv + tcga.mut
+tcga.mat[tcga.mat > 1] <- 1
+
+# remove genes that are altered in only one sample or in all the samples
+tcga.mat <- tcga.mat[which(apply(tcga.mat, 1,  function(x){length(which(x != 0))}) < ncol(tcga.mat)-1 & apply(tcga.mat, 1,  function(x){length(which(x != 0))}) > 1),]
+if(length(which(is.na(tcga.mat))) > 0){ tcga.mat <- tcga.mat[, -which(apply(tcga.mat,2, is.na)[1,])]}
+return(tcga.mat)
+}
+
+sqc.mat <- get.alterations(lusc.mut, lusc.cnv)
+adc.mat <-  get.alterations(luad.mut, luad.cnv)
+adc.rna <- luad.rna
+sqc.rna <- lusc.rna
+
+```
+
+
+## Download clinical data and function for standardising clinical variables
+```{r download_clinical, echo=F,  out.width='12cm', out.height='12cm', fig.show='hold'}
+
+getclinical <- function(cancer.type){
+tcga.clin <- getClinicalData(mycgds, paste(cancer.type, "_tcga_all", sep="")) # download clinical data for lung adeno samples with CNV data
+tcga.clin <- tcga.clin[!is.na(tcga.clin[,"OS_MONTHS"]),] # remove samples without overall survival time
+
+# Deceased == 1 and Alive == 0
+tcga.clin[which(tcga.clin[,"OS_STATUS"] == "DECEASED"), "OS_STATUS"] <- 1  
+tcga.clin[which(tcga.clin[,"OS_STATUS"] != 1), "OS_STATUS"] <- 0
+tcga.clin[tcga.clin[,"OS_MONTHS"] > 60, "OS_STATUS"] <- 0
+tcga.clin[tcga.clin[,"OS_MONTHS"] > 60, "OS_MONTHS"] <- 60
+return(tcga.clin)
+}
+
+adc.clin <- getclinical("luad")
+sqc.clin <- getclinical("lusc")
+
+
+# make clinical factors into binary
+standardize.clinical <- function(tcga.clin){
+  factors <- as.matrix(tcga.clin[,c("AGE", "SEX",  "TOBACCO_SMOKING_HISTORY_INDICATOR", "HISTOLOGICAL_DIAGNOSIS", "AJCC_PATHOLOGIC_TUMOR_STAGE", "TARGETED_MOLECULAR_THERAPY","RADIATION_TREATMENT_ADJUVANT")])
+  factors[factors == "[Not Available]"] <- NA
+  factors[as.numeric(factors[, "AGE"]) > 65, "AGE"] <- 1
+  factors[as.numeric(factors[, "AGE"]) != 1, "AGE"] <- 0 
+  factors[factors[, "SEX"] == "Male", "SEX"] <- 0
+  factors[factors[, "SEX"] == "Female", "SEX"] <- 1 
+  factors[c(grep("IV", factors[, "AJCC_PATHOLOGIC_TUMOR_STAGE"]), grep("III", factors[, "AJCC_PATHOLOGIC_TUMOR_STAGE"]), grep("II", factors[, "AJCC_PATHOLOGIC_TUMOR_STAGE"])), "AJCC_PATHOLOGIC_TUMOR_STAGE"] <- 1
+  factors[c(grep("I", factors[, "AJCC_PATHOLOGIC_TUMOR_STAGE"])), "AJCC_PATHOLOGIC_TUMOR_STAGE"] <- 0
+  factors[as.numeric( factors[, "TOBACCO_SMOKING_HISTORY_INDICATOR"]) == 1, "TOBACCO_SMOKING_HISTORY_INDICATOR"] <- 1
+  factors[as.numeric( factors[, "TOBACCO_SMOKING_HISTORY_INDICATOR"]) > 1, "TOBACCO_SMOKING_HISTORY_INDICATOR"] <- 0
+  factors[grep("Lung Squamous Cell Carcinoma", factors[,"HISTOLOGICAL_DIAGNOSIS"]), "HISTOLOGICAL_DIAGNOSIS"] <- 0
+  factors[grep("Lung Adenocarcinoma", factors[,"HISTOLOGICAL_DIAGNOSIS"]), "HISTOLOGICAL_DIAGNOSIS"] <- 1
+
+  factors[grep("NO", factors[,"RADIATION_TREATMENT_ADJUVANT"]), "RADIATION_TREATMENT_ADJUVANT"] <- 1
+  factors[grep("YES", factors[,"RADIATION_TREATMENT_ADJUVANT"]), "RADIATION_TREATMENT_ADJUVANT"] <- 0
+  factors[factors[,"RADIATION_TREATMENT_ADJUVANT"] == "", "RADIATION_TREATMENT_ADJUVANT"] <- 1
+  factors[grep("NO", factors[,"TARGETED_MOLECULAR_THERAPY"]), "TARGETED_MOLECULAR_THERAPY"] <- 1
+  factors[grep("YES", factors[,"TARGETED_MOLECULAR_THERAPY"]), "TARGETED_MOLECULAR_THERAPY"] <- 0
+  factors[factors[,"TARGETED_MOLECULAR_THERAPY"] == "", "TARGETED_MOLECULAR_THERAPY"] <- 1
+  
+  colnames(factors) <- c("Age", "Gender", "Smoking history","Histology", "Pathologic stage", "Targeted Treatment", "Radiation Treatment")
+  return(factors)
+}
+
+```
+
+
+## Combine luad and lusc cohorts
+```{r combined_luad_lusc, echo=F,  out.width='12cm', out.height='12cm', fig.show='hold'}
+#filter for genes and samples
+selectedGenes <- intersect(prognostic.names, colnames(adc.mat))
+test.samples <- intersect(rownames(adc.mat),rownames(adc.clin))
+
+# get test matrix with altered genes
+testX <- adc.mat[test.samples,selectedGenes]
+
+# sum the number of altered genes per sample
+adc.X <- apply(testX, 1, sum)
+
+#filter for genes and samples
+selectedGenes <- intersect(prognostic.names, colnames(sqc.mat))
+test.samples <- intersect(rownames(sqc.mat),rownames(sqc.clin))
+
+# get test matrix with altered genes
+testX <- sqc.mat[test.samples,selectedGenes]
+
+# sum the number of altered genes per sample
+sqc.X <- apply(testX, 1, sum)
+
+# combine luad and lusc alterations
+combined.X <- c(adc.X, sqc.X)
+
+# combine clinical info
+combined.clin <-  rbind(adc.clin[,intersect(colnames(adc.clin), colnames(sqc.clin))], sqc.clin[,intersect(colnames(adc.clin), colnames(sqc.clin))])
+combined.clin <- cbind(combined.clin, HISTOLOGY=c(rep("ADC", nrow(adc.clin)), rep("SCC", nrow(sqc.clin))))
+
+
+# get risk scores from RNA signature
+combined.rna <- rbind(adc.rna, sqc.rna)
+combined.rna <- combined.rna[intersect(rownames(combined.rna), rownames(combined.clin)),]
+combined.rna <- asinh(combined.rna)
+matched.genes <- intersect(colnames(combined.rna), rownames(sig.genes))
+sig.genes <- sig.genes[matched.genes,1]
+names(sig.genes) <- matched.genes
+combined.rna <- scale(combined.rna[,matched.genes])
+```
+
+
+## Stratify merged cohort and compare survival for Stage I cases
+```{r test_survival, echo=F,  out.width='12cm', out.height='12cm', fig.show='hold'}
+# stratify based on risk scores from RNA signature
+rs <- apply(combined.rna, 1, function(x){return(sum(x*sig.genes))})
+rs[rs > 0.17] <- 1
+rs[rs <= 0.17] <- 0
+
+
+# stratify based on risk scores from NAG
+rs.alt <- combined.X
+rs.alt[combined.X > 87.5 ] <- "high"
+rs.alt[combined.X < 87.5] <- "low"
+rs.alt[rs.alt == "high"] <- 0
+rs.alt[rs.alt == "low"] <- 1
+class(rs.alt) <- "numeric"
+
+# limit survival to 5 years
+combined.clin[combined.clin[,"OS_MONTHS"] > 60, "OS_STATUS"] <- 0
+combined.clin[combined.clin[,"OS_MONTHS"] > 60, "OS_MONTHS"] <- 60
+
+# test genomic alterations and expression signature
+test.samples <- intersect(names(rs), names(rs.alt))
+
+# filter for Stage I only
+test.samples <- intersect(test.samples, rownames(combined.clin)[-c(which(combined.clin[,"AJCC_PATHOLOGIC_TUMOR_STAGE"] == ""), grep("Stage II", combined.clin[,"AJCC_PATHOLOGIC_TUMOR_STAGE"]), grep("Stage IV", combined.clin[,"AJCC_PATHOLOGIC_TUMOR_STAGE"]), grep("Stage III", combined.clin[,"AJCC_PATHOLOGIC_TUMOR_STAGE"]))])
+
+# extract survival times
+testTime <- as.numeric(combined.clin[test.samples,"OS_MONTHS"])/12
+testStatus <- as.numeric(combined.clin[test.samples,"OS_STATUS"])
+
+# stratify to two groups based on RNA and NAG risk scores
+combined.rs <- rs.alt[test.samples] + rs[test.samples]
+combined.rs[combined.rs == 1] <- 0
+combined.rs[combined.rs != 0] <- 1
+
+# compute logrank p-value and HR for survival between two groups
+sfit<- survfit(Surv(testTime,testStatus) ~ combined.rs)
+surv.out <- survdiff(Surv(testTime,testStatus) ~ combined.rs)
+etmp <- surv.out$exp
+df<- (sum(1 * (etmp > 0))) - 1
+pv <- 1 - pchisq(surv.out$chisq, df)
+cox.fit <- coxph(formula = Surv(testTime,testStatus) ~ combined.rs)
+hr.alt <- signif(summary(cox.fit)$conf.int,3)
+
+par(mar=c(5,5,2,2))
+plot(sfit , col=c("red", "blue"), lwd=2, cex.axis=1.5, xlab="years survival", ylab="proportion surviving", cex.lab=2,cex.main=1.5, main=paste("Stage I&II TCGA no chemo, RNA + DNA (n=", length(testTime), ", genes=", length(selectedGenes),")", sep=""))
+legend(0.1, 0.3, c("RS-expression < 0.17 OR alterations >= 88", "RS-express >= 0.17 AND alterations < 88"), lwd=2, lty=c(1,1), col = c("red", "blue"), cex=1, box.col="white") 
+text(1.5, 0.15, paste("Logrank P-value = ", signif(pv,3)), cex=1)
+text(1.5, 0.1, paste("HR =", signif(hr.alt[1],3), "(", signif(hr.alt[3],3), "-", signif(hr.alt[4],3), ")" ), cex=1)
+```
+
+
+## Multivariate survival analysis
+```{r multivariate_survival, echo=F,  out.width='12cm', out.height='12cm', fig.show='hold'}
+# standardise clinical factors
+factors <- standardize.clinical(combined.clin)
+
+# extract only Stage I patients
+test.samples <- intersect(names(rs), names(rs.alt))
+test.samples <- intersect(test.samples, rownames(combined.clin)[-c(which(combined.clin[,"AJCC_PATHOLOGIC_TUMOR_STAGE"] == ""), grep("Stage II", combined.clin[,"AJCC_PATHOLOGIC_TUMOR_STAGE"]),grep("Stage IV", combined.clin[,"AJCC_PATHOLOGIC_TUMOR_STAGE"]), grep("Stage III", combined.clin[,"AJCC_PATHOLOGIC_TUMOR_STAGE"]))])
+
+# Get multivariate hazard ratios of other factors
+ageFactor <- as.numeric(factors[test.samples,"Age"])
+genderFactor <- as.numeric(factors[test.samples,"Gender"])
+tobaccoFactor <- as.numeric(factors[test.samples,"Smoking history"])
+stageFactor <- as.numeric(factors[test.samples,"Pathologic stage"])
+histologyFactor <- as.numeric(factors[test.samples,"Histology"])
+treatmentFactor <- as.numeric(factors[test.samples,"Targeted Treatment"]) + as.numeric(factors[test.samples,"Radiation Treatment"]) 
+
+# extract survival times
+testTime <- as.numeric(combined.clin[test.samples,"OS_MONTHS"])/12
+testStatus <- as.numeric(combined.clin[test.samples,"OS_STATUS"])
+
+# stratify to two groups based on RNA and NAG risk scores
+combined.rs <- rs.alt[test.samples] + rs[test.samples]
+combined.rs[combined.rs == 1] <- 0
+combined.rs[combined.rs != 0] <- 1
+
+# fit and report Cox model
+cox.fit <- coxph(formula = Surv(testTime,testStatus) ~ ageFactor + genderFactor + tobaccoFactor  +histologyFactor + combined.rs)
+
+summary(cox.fit)
+
+```

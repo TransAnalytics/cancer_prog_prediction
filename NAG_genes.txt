@@ -1,0 +1,866 @@
+Gene	Description	% Altered in PDXs
+A1CF	APOBEC1 complementation factor	11.1%
+A4GNT	"alpha-1,4-N-acetylglucosaminyltransferase"	5.6%
+ABCA1	"ATP-binding cassette, sub-family A (ABC1), member 1"	22.2%
+ABCA12	"ATP-binding cassette, sub-family A (ABC1), member 12"	8.3%
+ABCA13	"ATP-binding cassette, sub-family A (ABC1), member 13"	38.9%
+ABCC1	"ATP-binding cassette, sub-family C (CFTR/MRP), member 1"	11.1%
+ABCC3	"ATP-binding cassette, sub-family C (CFTR/MRP), member 3"	16.7%
+ABI3BP	"ABI family, member 3 (NESH) binding protein"	11.1%
+ACACB	acetyl-Coenzyme A carboxylase beta	13.9%
+ACER1	alkaline ceramidase 1	8.3%
+ACTN2	"actinin, alpha 2"	5.6%
+ACY3	aspartoacylase (aminocyclase) 3	5.6%
+ADAM19	ADAM metallopeptidase domain 19 (meltrin beta)	5.6%
+ADAM32	ADAM metallopeptidase domain 32	11.1%
+ADAM8	ADAM metallopeptidase domain 8	8.3%
+ADAMTS12	"ADAM metallopeptidase with thrombospondin type 1 motif, 12"	33.3%
+ADAMTS16	"ADAM metallopeptidase with thrombospondin type 1 motif, 16"	11.1%
+ADAMTS20	"ADAM metallopeptidase with thrombospondin type 1 motif, 20"	13.9%
+ADCY8	adenylate cyclase 8 (brain)	11.1%
+AFM	afamin	5.6%
+AGAP2	"ArfGAP with GTPase domain, ankyrin repeat and PH domain 2"	5.6%
+AGBL2	ATP/GTP binding protein-like 2	5.6%
+AGTPBP1	ATP/GTP binding protein 1	5.6%
+AGTR1	"angiotensin II receptor, type 1"	11.1%
+AIF1L	allograft inflammatory factor 1-like	27.8%
+ALDH6A1	"aldehyde dehydrogenase 6 family, member A1"	8.3%
+ANK1	"ankyrin 1, erythrocytic"	11.1%
+ANK3	"ankyrin 3, node of Ranvier (ankyrin G)"	11.1%
+ANKDD1A	ankyrin repeat and death domain containing 1A	47.2%
+ANKMY1	ankyrin repeat and MYND domain containing 1	5.6%
+ANKRD30A	ankyrin repeat domain 30A	11.1%
+ANKRD34A	ankyrin repeat domain 34A	13.9%
+ANKRD36	ankyrin repeat domain 36; similar to ankyrin repeat domain 36	58.3%
+ANPEP	alanyl (membrane) aminopeptidase	19.4%
+APAF1	apoptotic peptidase activating factor 1	22.2%
+APBB1IP	"amyloid beta (A4) precursor protein-binding, family B, member 1 interacting protein"	8.3%
+APEH	N-acylaminoacyl-peptide hydrolase	44.4%
+APOB	apolipoprotein B (including Ag(x) antigen)	11.1%
+AQP7	aquaporin 7	11.1%
+AQR	aquarius homolog (mouse)	11.1%
+ARF4	ADP-ribosylation factor 4	25.0%
+ARHGAP21	Rho GTPase activating protein 21	8.3%
+ARHGAP22	Rho GTPase activating protein 22	11.1%
+ARHGAP26	Rho GTPase activating protein 26	36.1%
+ARHGAP32	Rho GTPase-activating protein	8.3%
+ARHGEF11	Rho guanine nucleotide exchange factor (GEF) 11	11.1%
+ARHGEF2	Rho/Rac guanine nucleotide exchange factor (GEF) 2	11.1%
+ARHGEF26	NA	11.1%
+ARHGEF37	NA	11.1%
+ARHGEF4	Rho guanine nucleotide exchange factor (GEF) 4	8.3%
+ARID1B	AT rich interactive domain 1B (SWI1-like)	19.4%
+ARID2	"AT rich interactive domain 2 (ARID, RFX-like)"	11.1%
+ARIH2	ariadne homolog 2 (Drosophila)	11.1%
+ARL6	ADP-ribosylation factor-like 6	13.9%
+ARPP21	"cyclic AMP-regulated phosphoprotein, 21 kD"	8.3%
+ATAD5	"ATPase family, AAA domain containing 5"	8.3%
+ATE1	arginyltransferase 1	8.3%
+ATF6	activating transcription factor 6	13.9%
+ATG2A	ATG2 autophagy related 2 homolog A (S. cerevisiae)	33.3%
+ATP10A	"ATPase, class V, type 10A"	13.9%
+ATP12A	"ATPase, H+/K+ transporting, nongastric, alpha polypeptide"	11.1%
+ATP1A4	"ATPase, Na+/K+ transporting, alpha 4 polypeptide"	13.9%
+ATP2B2	"ATPase, Ca++ transporting, plasma membrane 2"	5.6%
+ATP5S	"ATP synthase, H+ transporting, mitochondrial F0 complex, subunit s (factor B)"	72.2%
+ATR	ataxia telangiectasia and Rad3 related; similar to ataxia telangiectasia and Rad3 related protein	30.6%
+ATXN1	ataxin 1	13.9%
+AZI1	5-azacytidine induced 1	19.4%
+BACE1	beta-site APP-cleaving enzyme 1	11.1%
+BAI3	brain-specific angiogenesis inhibitor 3	8.3%
+BARX2	BARX homeobox 2	8.3%
+BBS1	Bardet-Biedl syndrome 1	8.3%
+BBX	bobby sox homolog (Drosophila)	11.1%
+BCAM	basal cell adhesion molecule (Lutheran blood group)	13.9%
+BCAS1	breast carcinoma amplified sequence 1	22.2%
+BCL9	B-cell CLL/lymphoma 9	16.7%
+BHMT	betaine-homocysteine methyltransferase	5.6%
+BIN2	bridging integrator 2	5.6%
+BIRC6	baculoviral IAP repeat-containing 6	27.8%
+BIRC7	baculoviral IAP repeat-containing 7	5.6%
+BIRC8	baculoviral IAP repeat-containing 8	8.3%
+BMPER	BMP binding endothelial regulator	5.6%
+BPI	bactericidal/permeability-increasing protein	66.7%
+BRCA1	"breast cancer 1, early onset"	8.3%
+BRD9	bromodomain containing 9	41.7%
+BTBD11	BTB (POZ) domain containing 11	22.2%
+BTBD17	BTB (POZ) domain containing 17	11.1%
+C10orf90	chromosome 10 open reading frame 90	8.3%
+C1R	"complement component 1, r subcomponent"	8.3%
+C20orf26	chromosome 20 open reading frame 26	5.6%
+C4orf3	chromosome 4 open reading frame 3	52.8%
+CA13	carbonic anhydrase XIII	8.3%
+CACNA2D2	"calcium channel, voltage-dependent, alpha 2/delta subunit 2"	11.1%
+CACNB4	"calcium channel, voltage-dependent, beta 4 subunit"	5.6%
+CADM3	cell adhesion molecule 3	13.9%
+CADPS	Ca++-dependent secretion activator	16.7%
+CAGE1	cancer antigen 1	13.9%
+CAMK1D	calcium/calmodulin-dependent protein kinase ID	5.6%
+CAMTA1	calmodulin binding transcription activator 1	16.7%
+CAPRIN1	cell cycle associated protein 1	5.6%
+CAPRIN2	caprin family member 2	5.6%
+CARD11	"caspase recruitment domain family, member 11"	8.3%
+CBLB	Cas-Br-M (murine) ecotropic retroviral transforming sequence b	8.3%
+CCDC101	coiled-coil domain containing 101	8.3%
+CCDC14	coiled-coil domain containing 14	5.6%
+CCDC150	coiled-coil domain containing 150	16.7%
+CCDC158	coiled-coil domain containing 158	8.3%
+CCDC42	coiled-coil domain containing 42	5.6%
+CCDC60	coiled-coil domain containing 60	55.6%
+CDC73	"cell division cycle 73, Paf1/RNA polymerase II complex component, homolog (S. cerevisiae)"	5.6%
+CDH11	"cadherin 11, type 2, OB-cadherin (osteoblast)"	8.3%
+CDKL1	cyclin-dependent kinase-like 1 (CDC2-related kinase)	72.2%
+CDKL2	cyclin-dependent kinase-like 2 (CDC2-related kinase)	5.6%
+CDKN2C	"cyclin-dependent kinase inhibitor 2C (p18, inhibits CDK4)"	5.6%
+CDO1	"cysteine dioxygenase, type I"	5.6%
+CEACAM6	carcinoembryonic antigen-related cell adhesion molecule 6 (non-specific cross reacting antigen)	11.1%
+CELF2	"CUG triplet repeat, RNA binding protein 2"	5.6%
+CENPC1	centromere protein C 1	8.3%
+CEP290	centrosomal protein 290kDa	11.1%
+CHD2	chromodomain helicase DNA binding protein 2	11.1%
+CHI3L2	chitinase 3-like 2	38.9%
+CHUK	conserved helix-loop-helix ubiquitous kinase	5.6%
+CIRH1A	"cirrhosis, autosomal recessive 1A (cirhin)"	8.3%
+CISH	cytokine inducible SH2-containing protein	11.1%
+CIT	"citron (rho-interacting, serine/threonine kinase 21)"	11.1%
+CIZ1	CDKN1A interacting zinc finger protein 1	25.0%
+CKAP2L	cytoskeleton associated protein 2-like	8.3%
+CLEC14A	"C-type lectin domain family 14, member A"	22.2%
+CLIP1	CAP-GLY domain containing linker protein 1	22.2%
+CLIP2	CAP-GLY domain containing linker protein 2	5.6%
+CLRN3	clarin 3	8.3%
+CLSTN2	calsyntenin 2	5.6%
+CNBD1	cyclic nucleotide binding domain containing 1	8.3%
+CNGA1	cyclic nucleotide gated channel alpha 1	8.3%
+CNGB1	cyclic nucleotide gated channel beta 1	5.6%
+CNGB3	cyclic nucleotide gated channel beta 3	11.1%
+CNNM2	cyclin M2	8.3%
+CNTN1	contactin 1	11.1%
+CNTN5	contactin 5	8.3%
+CNTNAP4	contactin associated protein-like 4	16.7%
+CNTNAP5	contactin associated protein-like 5	13.9%
+COL19A1	"collagen, type XIX, alpha 1"	8.3%
+COL20A1	"collagen, type XX, alpha 1"	8.3%
+COL24A1	"collagen, type XXIV, alpha 1"	19.4%
+COL28A1	"collagen, type XXVIII, alpha 1"	44.4%
+COL4A2	"collagen, type IV, alpha 2"	19.4%
+COL5A2	"collagen, type V, alpha 2"	8.3%
+COL8A1	"collagen, type VIII, alpha 1"	13.9%
+COL9A1	"collagen, type IX, alpha 1"	8.3%
+CORIN	"corin, serine peptidase"	8.3%
+CPAMD8	"C3 and PZP-like, alpha-2-macroglobulin domain containing 8"	5.6%
+CPS1	"carbamoyl-phosphate synthetase 1, mitochondrial"	16.7%
+CPXM2	"carboxypeptidase X (M14 family), member 2"	11.1%
+CREBBP	CREB binding protein	8.3%
+CRELD2	cysteine-rich with EGF-like domains 2	19.4%
+CRNN	cornulin	8.3%
+CRTAM	cytotoxic and regulatory T cell molecule	11.1%
+CSMD3	CUB and Sushi multiple domains 3	38.9%
+CSRP2BP	CSRP2 binding protein	5.6%
+CST2	cystatin SA	19.4%
+CST4	cystatin S	8.3%
+CSTL1	cystatin-like 1	22.2%
+CTNNB1	"catenin (cadherin-associated protein), beta 1, 88kDa"	11.1%
+CWF19L1	"CWF19-like 1, cell cycle control (S. pombe)"	13.9%
+CXCR5	chemokine (C-X-C motif) receptor 5	8.3%
+CYP2A6	"cytochrome P450, family 2, subfamily A, polypeptide 6"	11.1%
+CYP2A7	"cytochrome P450, family 2, subfamily A, polypeptide 7"	16.7%
+CYP8B1	"cytochrome P450, family 8, subfamily B, polypeptide 1"	11.1%
+CYTH3	cytohesin 3	5.6%
+DAB2	"disabled homolog 2, mitogen-responsive phosphoprotein (Drosophila)"	13.9%
+DALRD3	DALR anticodon binding domain containing 3	11.1%
+DAO	D-amino-acid oxidase	11.1%
+DBF4B	DBF4 homolog B (S. cerevisiae)	5.6%
+DCAF4L2	WD repeat domain 21C	13.9%
+DCAF6	IQ motif and WD repeats 1	11.1%
+DCAKD	dephospho-CoA kinase domain containing	5.6%
+DDR2	discoidin domain receptor tyrosine kinase 2	13.9%
+DEFB115	"defensin, beta 115"	11.1%
+DENND5B	DENN/MADD domain containing 5B	8.3%
+DGCR8	DiGeorge syndrome critical region gene 8	16.7%
+DHRS2	dehydrogenase/reductase (SDR family) member 2	11.1%
+DHTKD1	dehydrogenase E1 and transketolase domain containing 1	5.6%
+DHX58	DEXH (Asp-Glu-X-His) box polypeptide 58	5.6%
+DIP2C	DIP2 disco-interacting protein 2 homolog C (Drosophila)	5.6%
+DLGAP2	"discs, large (Drosophila) homolog-associated protein 2"	8.3%
+DMBT1	deleted in malignant brain tumors 1	11.1%
+DMKN	dermokine	36.1%
+DMP1	dentin matrix acidic phosphoprotein 1	8.3%
+DMWD	"dystrophia myotonica, WD repeat containing"	8.3%
+DMXL2	Dmx-like 2	50.0%
+DNAH1	"dynein, axonemal, heavy chain 1"	16.7%
+DNAH10	"dynein, axonemal, heavy chain 10"	16.7%
+DNAH11	"dynein, axonemal, heavy chain 11"	5.6%
+DNAH12	"dynein, axonemal, heavy chain 12"	11.1%
+DNAJA1	"DnaJ (Hsp40) homolog, subfamily A, member 1"	11.1%
+DNASE1L3	deoxyribonuclease I-like 3	16.7%
+DOCK3	dedicator of cytokinesis 3	22.2%
+DOCK5	dedicator of cytokinesis 5	41.7%
+DPAGT1	dolichyl-phosphate (UDP-N-acetylglucosamine) N-acetylglucosaminephosphotransferase 1 (GlcNAc-1-P transferase)	11.1%
+DPEP3	dipeptidase 3	11.1%
+DPP10	dipeptidyl-peptidase 10	5.6%
+DPP3	dipeptidyl-peptidase 3	25.0%
+DSC1	desmocollin 1	27.8%
+DSCAML1	Down syndrome cell adhesion molecule like 1	13.9%
+DSP	desmoplakin	13.9%
+DTX2	deltex homolog 2 (Drosophila)	8.3%
+DUOX1	dual oxidase 1	30.6%
+DYNC1I1	"dynein, cytoplasmic 1, intermediate chain 1"	22.2%
+DYSF	"dysferlin, limb girdle muscular dystrophy 2B (autosomal recessive)"	5.6%
+ECD	ecdysoneless homolog (Drosophila)	8.3%
+EEA1	early endosome antigen 1	11.1%
+EGFR	"epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)"	13.9%
+EHD2	EH-domain containing 2	5.6%
+EHD4	EH-domain containing 4	30.6%
+EIF2A	"eukaryotic translation initiation factor 2A, 65kDa"	44.4%
+ELK3	"ELK3, ETS-domain protein (SRF accessory protein 2)"	8.3%
+ELOVL4	"elongation of very long chain fatty acids (FEN1/Elo2, SUR4/Elo3, yeast)-like 4"	5.6%
+EMILIN2	elastin microfibril interfacer 2	5.6%
+EML6	echinoderm microtubule associated protein like 6	5.6%
+ENKUR	"enkurin, TRPC channel interacting protein"	8.3%
+EPHA5	EPH receptor A5	13.9%
+ESRP1	epithelial splicing regulatory protein 1	11.1%
+EXOSC4	exosome component 4	8.3%
+EXPH5	exophilin 5	69.4%
+FAM118B	"family with sequence similarity 118, member B"	5.6%
+FAM135B	"family with sequence similarity 135, member B"	16.7%
+FAM170B	"family with sequence similarity 170, member B"	13.9%
+FAM171A1	"family with sequence similarity 171, member A1"	8.3%
+FAM187B	"family with sequence similarity 187, member B"	5.6%
+FAM5C	"family with sequence similarity 5, member C"	25.0%
+FAM71B	"family with sequence similarity 71, member B"	8.3%
+FAM83B	"family with sequence similarity 83, member B"	5.6%
+FAM83C	"family with sequence similarity 83, member C"	11.1%
+FANK1	fibronectin type III and ankyrin repeat domains 1	8.3%
+FAP	"fibroblast activation protein, alpha"	5.6%
+FAT1	FAT tumor suppressor homolog 1 (Drosophila)	13.9%
+FAT2	FAT tumor suppressor homolog 2 (Drosophila)	13.9%
+FBLN2	fibulin 2	5.6%
+FBN3	fibrillin 3	30.6%
+FBXO36	F-box protein 36	38.9%
+FBXO38	F-box protein 38	27.8%
+FCHO2	FCH domain only 2	5.6%
+FCHSD2	FCH and double SH3 domains 2	5.6%
+FCRL2	Fc receptor-like 2	11.1%
+FCRL5	Fc receptor-like 5	11.1%
+FFAR3	free fatty acid receptor 3	38.9%
+FGA	fibrinogen alpha chain	16.7%
+FGL1	fibrinogen-like 1	11.1%
+FHL2	four and a half LIM domains 2	5.6%
+FILIP1	filamin A interacting protein 1	5.6%
+FLI1	Friend leukemia virus integration 1	5.6%
+FLII	flightless I homolog (Drosophila)	5.6%
+FLNC	"filamin C, gamma (actin binding protein 280)"	5.6%
+FMO3	flavin containing monooxygenase 3	5.6%
+FOLR1	folate receptor 1 (adult)	5.6%
+FRS2	fibroblast growth factor receptor substrate 2	22.2%
+FSCB	fibrous sheath CABYR binding protein	16.7%
+FUBP1	far upstream element (FUSE) binding protein 1	5.6%
+FZD10	frizzled homolog 10 (Drosophila)	13.9%
+G6PC2	"glucose-6-phosphatase, catalytic, 2"	11.1%
+GAB4	"GRB2-associated binding protein family, member 4"	5.6%
+GAD2	"glutamate decarboxylase 2 (pancreatic islets and brain, 65kDa)"	11.1%
+GALNTL6	UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase-like 6	8.3%
+GAP43	growth associated protein 43	8.3%
+GATA3	GATA binding protein 3	8.3%
+GATA6	GATA binding protein 6	8.3%
+GBE1	"glucan (1,4-alpha-), branching enzyme 1"	16.7%
+GBP4	guanylate binding protein 4	33.3%
+GDAP1	ganglioside-induced differentiation-associated protein 1	8.3%
+GDF5	growth differentiation factor 5	8.3%
+GHR	growth hormone receptor	8.3%
+GIMAP6	"GTPase, IMAP family member 6"	25.0%
+GJA10	"gap junction protein, alpha 10, 62kDa"	5.6%
+GLIS2	GLIS family zinc finger 2	8.3%
+GLYATL2	glycine-N-acyltransferase-like 2	13.9%
+GNAS	GNAS complex locus	8.3%
+GNAT3	"guanine nucleotide binding protein, alpha transducing 3"	5.6%
+GNMT	glycine N-methyltransferase	5.6%
+GOLGB1	"golgin B1, golgi integral membrane protein"	5.6%
+GPA33	glycoprotein A33 (transmembrane)	11.1%
+GPD1L	glycerol-3-phosphate dehydrogenase 1-like	5.6%
+GPR125	G protein-coupled receptor 125	30.6%
+GPR128	G protein-coupled receptor 128	11.1%
+GPR15	G protein-coupled receptor 15	11.1%
+GPR161	G protein-coupled receptor 161	11.1%
+GREB1	GREB1 protein	11.1%
+GRIK2	"glutamate receptor, ionotropic, kainate 2"	5.6%
+GRM7	"glutamate receptor, metabotropic 7"	8.3%
+GRM8	"glutamate receptor, metabotropic 8"	5.6%
+GTF2IRD1	GTF2I repeat domain containing 1	5.6%
+GUK1	guanylate kinase 1	5.6%
+GZMB	"granzyme B (granzyme 2, cytotoxic T-lymphocyte-associated serine esterase 1)"	33.3%
+HAPLN1	hyaluronan and proteoglycan link protein 1	5.6%
+HAVCR2	hepatitis A virus cellular receptor 2	5.6%
+HEATR5A	HEAT repeat containing 5A	19.4%
+HELLS	"helicase, lymphoid-specific"	5.6%
+HEXDC	"hexosaminidase (glycosyl hydrolase family 20, catalytic domain) containing"	8.3%
+HIPK2	homeodomain interacting protein kinase 2; similar to homeodomain interacting protein kinase 2	5.6%
+HIST1H3F	"histone cluster 1, H3j; histone cluster 1, H3i; histone cluster 1, H3h; histone cluster 1, H3g; histone cluster 1, H3f; histone cluster 1, H3e; histone cluster 1, H3d; histone cluster 1, H3c; histone cluster 1, H3b; histone cluster 1, H3a; histone cluster 1, H2ad; histone cluster 2, H3a; histone cluster 2, H3c; histone cluster 2, H3d"	8.3%
+HPDL	4-hydroxyphenylpyruvate dioxygenase-like	5.6%
+HTR1B	5-hydroxytryptamine (serotonin) receptor 1B	13.9%
+HTR1F	5-hydroxytryptamine (serotonin) receptor 1F	13.9%
+HTR4	5-hydroxytryptamine (serotonin) receptor 4	13.9%
+HTR6	5-hydroxytryptamine (serotonin) receptor 6	22.2%
+HYAL1	hyaluronoglucosaminidase 1	11.1%
+HYOU1	hypoxia up-regulated 1	11.1%
+IFIT3	interferon-induced protein with tetratricopeptide repeats 3	5.6%
+IFLTD1	intermediate filament tail domain containing 1	11.1%
+IL26	interleukin 26	5.6%
+IL32	interleukin 32	30.6%
+IMPG1	interphotoreceptor matrix proteoglycan 1	13.9%
+IMPG2	interphotoreceptor matrix proteoglycan 2	13.9%
+INPP4B	"inositol polyphosphate-4-phosphatase, type II, 105kDa"	19.4%
+INTS4	integrator complex subunit 4	5.6%
+IP6K2	inositol hexakisphosphate kinase 2	11.1%
+IP6K3	inositol hexakisphosphate kinase 3	5.6%
+IQCA1	IQ motif containing with AAA domain 1	5.6%
+IQCB1	IQ motif containing B1	5.6%
+ITGA10	"integrin, alpha 10"	30.6%
+ITGAM	"integrin, alpha M (complement component 3 receptor 3 subunit)"	8.3%
+ITIH1	inter-alpha (globulin) inhibitor H1	13.9%
+ITIH2	inter-alpha (globulin) inhibitor H2	11.1%
+ITIH5	inter-alpha (globulin) inhibitor H5	11.1%
+ITSN1	intersectin 1 (SH3 domain protein)	5.6%
+IVL	involucrin	13.9%
+IZUMO2	NA	5.6%
+JAKMIP1	Janus kinase and microtubule interacting protein 1	8.3%
+KALRN	"kalirin, RhoGEF kinase"	5.6%
+KCNA3	"potassium voltage-gated channel, shaker-related subfamily, member 3"	11.1%
+KCNB2	"potassium voltage-gated channel, Shab-related subfamily, member 2"	8.3%
+KCNC1	"potassium voltage-gated channel, Shaw-related subfamily, member 1"	22.2%
+KCNH1	"potassium voltage-gated channel, subfamily H (eag-related), member 1"	5.6%
+KCNK4	"potassium channel, subfamily K, member 4"	5.6%
+KCNMA1	"potassium large conductance calcium-activated channel, subfamily M, alpha member 1"	5.6%
+KCNN1	"potassium intermediate/small conductance calcium-activated channel, subfamily N, member 1"	5.6%
+KCTD5	potassium channel tetramerisation domain containing 5	8.3%
+KDM3A	lysine (K)-specific demethylase 3A	5.6%
+KDM4B	lysine (K)-specific demethylase 4B	5.6%
+KHDRBS2	"KH domain containing, RNA binding, signal transduction associated 2"	5.6%
+KIAA0232	KIAA0232	11.1%
+KIAA0355	KIAA0355	16.7%
+KIAA1024	KIAA1024	5.6%
+KIAA1161	KIAA1161	13.9%
+KIAA1199	KIAA1199	5.6%
+KIAA1211	KIAA1211	11.1%
+KIAA1377	KIAA1377	5.6%
+KIAA1462	KIAA1462	8.3%
+KIAA2018	KIAA2018	11.1%
+KIF1C	kinesin family member 1C	5.6%
+KIF21A	kinesin family member 21A	11.1%
+KIF24	kinesin family member 24	13.9%
+KIF2B	kinesin family member 2B	5.6%
+KIF5A	kinesin family member 5A	5.6%
+KIFAP3	kinesin-associated protein 3	13.9%
+KIR2DL3	"killer cell immunoglobulin-like receptor, two domains, long cytoplasmic tail, 3"	50.0%
+KIRREL3	kin of IRRE like 3 (Drosophila)	5.6%
+KLF17	Kruppel-like factor 17	41.7%
+KLF6	Kruppel-like factor 6	5.6%
+KLHL11	kelch-like 11 (Drosophila)	5.6%
+KLHL38	kelch-like 38 (Drosophila)	19.4%
+KLKB1	"kallikrein B, plasma (Fletcher factor) 1"	5.6%
+KNDC1	kinase non-catalytic C-lobe domain (KIND) containing 1	8.3%
+KPRP	keratinocyte proline-rich protein	16.7%
+KRT27	keratin 27	8.3%
+KRT34	keratin 34	5.6%
+KRT36	keratin 36	5.6%
+KRT38	keratin 38	5.6%
+KRTAP4-11	keratin associated protein 4-6; keratin associated protein 4-7; keratin associated protein 4-8; keratin associated protein 4-11	22.2%
+KRTCAP3	keratinocyte associated protein 3	5.6%
+KYNU	kynureninase (L-kynurenine hydrolase)	5.6%
+LAMA2	"laminin, alpha 2"	27.8%
+LAMB2	"laminin, beta 2 (laminin S)"	11.1%
+LELP1	late cornified envelope-like proline-rich 1	11.1%
+LHX8	LIM homeobox 8	8.3%
+LILRB1	"leukocyte immunoglobulin-like receptor, subfamily B (with TM and ITIM domains), member 1"	13.9%
+LILRB4	"leukocyte immunoglobulin-like receptor, subfamily B (with TM and ITIM domains), member 4"	52.8%
+LIMS1	LIM and senescent cell antigen-like domains 1	16.7%
+LINGO2	leucine rich repeat and Ig domain containing 2	13.9%
+LMTK3	lemur tyrosine kinase 3	5.6%
+LOXHD1	lipoxygenase homology domains 1	22.2%
+LPHN3	latrophilin 3	5.6%
+LRFN2	leucine rich repeat and fibronectin type III domain containing 2	5.6%
+LRFN5	leucine rich repeat and fibronectin type III domain containing 5	16.7%
+LRIG1	leucine-rich repeats and immunoglobulin-like domains 1	11.1%
+LRP6	low density lipoprotein receptor-related protein 6	11.1%
+LRRC66	leucine rich repeat containing 66	8.3%
+LRRC7	leucine rich repeat containing 7	11.1%
+LRRIQ1	leucine-rich repeats and IQ motif containing 1	11.1%
+MACF1	microtubule-actin crosslinking factor 1	30.6%
+MAML2	mastermind-like 2 (Drosophila)	5.6%
+MAN1B1	"mannosidase, alpha, class 1B, member 1"	5.6%
+MANBA	"mannosidase, beta A, lysosomal"	63.9%
+MANEA	"mannosidase, endo-alpha"	22.2%
+MASTL	microtubule associated serine/threonine kinase-like	8.3%
+MATN4	matrilin 4	8.3%
+MBD5	methyl-CpG binding domain protein 5	13.9%
+MBIP	MAP3K12 binding inhibitory protein 1	22.2%
+MCF2L2	MCF.2 cell line derived transforming sequence-like 2	41.7%
+MDGA2	MAM domain containing glycosylphosphatidylinositol anchor 2	16.7%
+MDN1	"MDN1, midasin homolog (yeast)"	13.9%
+MED12L	mediator complex subunit 12-like	16.7%
+MED13L	mediator complex subunit 13-like	11.1%
+MED17	mediator complex subunit 17	8.3%
+MEGF11	multiple EGF-like-domains 11	5.6%
+MEIS2	Meis homeobox 2	13.9%
+METTL13	methyltransferase like 13	25.0%
+MFAP5	microfibrillar associated protein 5	8.3%
+MFRP	membrane frizzled-related protein	11.1%
+MGAM	maltase-glucoamylase (alpha-glucosidase)	5.6%
+MIA2	melanoma inhibitory activity 2	30.6%
+MKI67IP	MKI67 (FHA domain) interacting nucleolar phosphoprotein	11.1%
+MKL1	megakaryoblastic leukemia (translocation) 1	50.0%
+MKRN3	makorin ring finger protein 3	19.4%
+MLH1	"mutL homolog 1, colon cancer, nonpolyposis type 2 (E. coli)"	38.9%
+MLL	"myeloid/lymphoid or mixed-lineage leukemia (trithorax homolog, Drosophila)"	33.3%
+MMP16	matrix metallopeptidase 16 (membrane-inserted)	13.9%
+MMP27	matrix metallopeptidase 27	5.6%
+MOB2	HCCA2 protein	55.6%
+MORF4L1	mortality factor 4; mortality factor 4 like 1	25.0%
+MORN3	MORN repeat containing 3	11.1%
+MPP7	"membrane protein, palmitoylated 7 (MAGUK p55 subfamily member 7)"	5.6%
+MR1	"major histocompatibility complex, class I-related"	25.0%
+MRGPRD	"MAS-related GPR, member D"	8.3%
+MRPL24	mitochondrial ribosomal protein L24	8.3%
+MRPL28	mitochondrial ribosomal protein L28	11.1%
+MS4A13	"membrane-spanning 4-domains, subfamily A, member 13"	5.6%
+MSL2	male-specific lethal 2 homolog (Drosophila)	16.7%
+MTAP	methylthioadenosine phosphorylase	63.9%
+MTF2	metal response element binding transcription factor 2	16.7%
+MTMR3	myotubularin related protein 3	5.6%
+MXD4	MAX dimerization protein 4	5.6%
+MYF5	myogenic factor 5	11.1%
+MYF6	myogenic factor 6 (herculin)	13.9%
+MYH8	"myosin, heavy chain 8, skeletal muscle, perinatal"	8.3%
+MYL2	"myosin, light chain 2, regulatory, cardiac, slow"	11.1%
+MYLK	myosin light chain kinase	5.6%
+MYLK3	myosin light chain kinase 3	58.3%
+MYO15A	myosin XVA	13.9%
+MYOD1	myogenic differentiation 1	5.6%
+MYT1	myelin transcription factor 1	11.1%
+NARF	nuclear prelamin A recognition factor	11.1%
+NBAS	neuroblastoma amplified sequence	13.9%
+NBEA	neurobeachin	19.4%
+NCOA2	nuclear receptor coactivator 2	11.1%
+NCSTN	nicastrin	16.7%
+NDN	necdin homolog (mouse)	13.9%
+NDUFAF3	"NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, assembly factor 3"	8.3%
+NDUFC2	"NADH dehydrogenase (ubiquinone) 1, subcomplex unknown, 2, 14.5kDa"	5.6%
+NEB	nebulin	41.7%
+NEFM	"neurofilament, medium polypeptide"	13.9%
+NES	nestin	11.1%
+NEU3	sialidase 3 (membrane sialidase)	5.6%
+NFE2L2	nuclear factor (erythroid-derived 2)-like 2	13.9%
+NFYB	"nuclear transcription factor Y, beta"	11.1%
+NGFR	"nerve growth factor receptor (TNFR superfamily, member 16)"	8.3%
+NGLY1	N-glycanase 1	5.6%
+NIN	ninein (GSK3B interacting protein)	11.1%
+NLRC5	"NLR family, CARD domain containing 5"	8.3%
+NLRP3	"NLR family, pyrin domain containing 3"	8.3%
+NLRP4	"NLR family, pyrin domain containing 4"	16.7%
+NLRP5	"NLR family, pyrin domain containing 5"	16.7%
+NMS	neuromedin S	36.1%
+NOP10	NOP10 ribonucleoprotein homolog (yeast)	11.1%
+NOX4	NADPH oxidase 4	8.3%
+NPC1	"Niemann-Pick disease, type C1"	5.6%
+NQO1	"NAD(P)H dehydrogenase, quinone 1"	38.9%
+NRAP	nebulin-related anchoring protein	75.0%
+NSFL1C	NSFL1 (p97) cofactor (p47)	5.6%
+NTNG1	netrin G1	38.9%
+NTRK3	"neurotrophic tyrosine kinase, receptor, type 3"	13.9%
+NTSR1	neurotensin receptor 1 (high affinity)	8.3%
+NUDT6	nudix (nucleoside diphosphate linked moiety X)-type motif 6	19.4%
+NUDT9	nudix (nucleoside diphosphate linked moiety X)-type motif 9	5.6%
+NUP210	nucleoporin 210kDa	5.6%
+NXF1	nuclear RNA export factor 1	5.6%
+OR10H4	"olfactory receptor, family 10, subfamily H, member 4"	30.6%
+OR10K2	"olfactory receptor, family 10, subfamily K, member 2"	11.1%
+OR10R2	"olfactory receptor, family 10, subfamily R, member 2"	75.0%
+OR13A1	"olfactory receptor, family 13, subfamily A, member 1"	11.1%
+OR13C2	"olfactory receptor, family 13, subfamily C, member 2"	8.3%
+OR13C5	"olfactory receptor, family 13, subfamily C, member 5"	5.6%
+OR13D1	"olfactory receptor, family 13, subfamily D, member 1"	5.6%
+OR13F1	"olfactory receptor, family 13, subfamily F, member 1"	8.3%
+OR14C36	"olfactory receptor, family 14, subfamily C, member 36"	61.1%
+OR1F1	"olfactory receptor, family 1, subfamily F, member 1"	58.3%
+OR1L8	"olfactory receptor, family 1, subfamily L, member 8"	5.6%
+OR2B2	"olfactory receptor, family 2, subfamily B, member 2"	8.3%
+OR2M2	"olfactory receptor, family 2, subfamily M, member 2"	61.1%
+OR2M3	"olfactory receptor, family 2, subfamily M, member 3"	5.6%
+OR3A2	"olfactory receptor, family 3, subfamily A, member 2"	5.6%
+OR4A15	"olfactory receptor, family 4, subfamily A, member 15"	5.6%
+OR4D1	"olfactory receptor, family 4, subfamily D, member 1"	11.1%
+OR4F6	"olfactory receptor, family 4, subfamily F, member 6"	5.6%
+OR4K1	"olfactory receptor, family 4, subfamily K, member 1"	61.1%
+OR4M2	"olfactory receptor, family 4, subfamily M, member 2"	13.9%
+OR4X1	"olfactory receptor, family 4, subfamily X, member 1"	27.8%
+OR51G2	"olfactory receptor, family 51, subfamily G, member 2"	25.0%
+OR52A5	"olfactory receptor, family 52, subfamily A, member 5"	5.6%
+OR52B6	"olfactory receptor, family 52, subfamily B, member 6"	5.6%
+OR52L1	"olfactory receptor, family 52, subfamily L, member 1"	5.6%
+OR5AS1	"olfactory receptor, family 5, subfamily AS, member 1"	25.0%
+OR5H14	"olfactory receptor, family 5, subfamily H, member 14"	13.9%
+OR5H15	"olfactory receptor, family 5, subfamily H, member 15"	13.9%
+OR5P3	"olfactory receptor, family 5, subfamily P, member 3"	19.4%
+OR5T1	"olfactory receptor, family 5, subfamily T, member 1"	5.6%
+OR5T2	"olfactory receptor, family 5, subfamily T, member 2"	25.0%
+OR5T3	"olfactory receptor, family 5, subfamily T, member 3"	8.3%
+OR6B3	"olfactory receptor, family 6, subfamily B, member 3"	25.0%
+OR6K2	"olfactory receptor, family 6, subfamily K, member 2"	11.1%
+OR6N1	"olfactory receptor, family 6, subfamily N, member 1"	11.1%
+OR6P1	"olfactory receptor, family 6, subfamily P, member 1"	13.9%
+OR6T1	"olfactory receptor, family 6, subfamily T, member 1"	5.6%
+OR6Y1	"olfactory receptor, family 6, subfamily Y, member 1"	52.8%
+OR8A1	"olfactory receptor, family 8, subfamily A, member 1"	8.3%
+OR8B4	"olfactory receptor, family 8, subfamily B, member 4"	41.7%
+OR8D4	"olfactory receptor, family 8, subfamily D, member 4"	27.8%
+OR8H3	"olfactory receptor, family 8, subfamily H, member 3"	27.8%
+OR8J3	"olfactory receptor, family 8, subfamily J, member 3"	25.0%
+OR9G1	"olfactory receptor, family 9, subfamily G, member 9; olfactory receptor, family 9, subfamily G, member 1"	11.1%
+OSBPL5	oxysterol binding protein-like 5	5.6%
+OSGIN2	oxidative stress induced growth inhibitor family member 2	11.1%
+OTUD7B	OTU domain containing 7B	13.9%
+OXSM	"3-oxoacyl-ACP synthase, mitochondrial"	5.6%
+P2RY2	"purinergic receptor P2Y, G-protein coupled, 2"	5.6%
+P4HTM	"prolyl 4-hydroxylase, transmembrane (endoplasmic reticulum)"	11.1%
+PACSIN1	protein kinase C and casein kinase substrate in neurons 1	5.6%
+PAK7	p21 protein (Cdc42/Rac)-activated kinase 7	11.1%
+PANX3	pannexin 3	8.3%
+PAPSS1	3-phosphoadenosine 5-phosphosulfate synthase 1	5.6%
+PATE1	prostate and testis expressed 1	5.6%
+PAWR	"PRKC, apoptosis, WT1, regulator"	11.1%
+PAX1	paired box 1	5.6%
+PAX8	paired box 8	8.3%
+PBRM1	polybromo 1	22.2%
+PC	pyruvate carboxylase	8.3%
+PCDH7	protocadherin 7	5.6%
+PCF11	"PCF11, cleavage and polyadenylation factor subunit, homolog (S. cerevisiae)"	8.3%
+PCOLCE2	procollagen C-endopeptidase enhancer 2	5.6%
+PCSK1	proprotein convertase subtilisin/kexin type 1	5.6%
+PCSK5	proprotein convertase subtilisin/kexin type 5	30.6%
+PDCD6IP	programmed cell death 6 interacting protein	33.3%
+PDE12	phosphodiesterase 12	13.9%
+PDGFRA	"platelet-derived growth factor receptor, alpha polypeptide"	16.7%
+PDPR	pyruvate dehydrogenase phosphatase regulatory subunit	63.9%
+PDZD3	PDZ domain containing 3	44.4%
+PDZD8	PDZ domain containing 8	8.3%
+PDZRN3	PDZ domain containing ring finger 3	13.9%
+PEX11B	peroxisomal biogenesis factor 11 beta	13.9%
+PFKP	"phosphofructokinase, platelet"	5.6%
+PGC	progastricsin (pepsinogen C)	5.6%
+PGR	progesterone receptor	5.6%
+PHF14	PHD finger protein 14	5.6%
+PHF19	PHD finger protein 19	5.6%
+PHF3	PHD finger protein 3	8.3%
+PHLDB2	"pleckstrin homology-like domain, family B, member 2; phosphatidylinositol-specific phospholipase C, X domain containing 2"	11.1%
+PHLPP2	PH domain and leucine rich repeat protein phosphatase 2	11.1%
+PHOX2A	paired-like homeobox 2a	5.6%
+PI4KB	"phosphatidylinositol 4-kinase, catalytic, beta"	11.1%
+PIGN	"phosphatidylinositol glycan anchor biosynthesis, class N"	22.2%
+PITRM1	pitrilysin metallopeptidase 1	13.9%
+PIWIL1	piwi-like 1 (Drosophila)	11.1%
+PIWIL4	piwi-like 4 (Drosophila)	5.6%
+PKD1	polycystic kidney disease 1 (autosomal dominant)	8.3%
+PLA2G4C	"phospholipase A2, group IVC (cytosolic, calcium-independent)"	5.6%
+PLAGL2	pleiomorphic adenoma gene-like 2; similar to pleiomorphic adenoma gene-like 2	11.1%
+PLCG1	"phospholipase C, gamma 1"	5.6%
+PLEC	"similar to Plectin 1 (PLTN) (PCN) (Hemidesmosomal protein 1) (HD1); plectin 1, intermediate filament binding protein 500kDa"	8.3%
+PLEKHA5	"pleckstrin homology domain containing, family A member 5"	13.9%
+PLXNA2	plexin A2	5.6%
+PMCH	pro-melanin-concentrating hormone	11.1%
+PNMAL1	PNMA-like 1	5.6%
+PNP	nucleoside phosphorylase	33.3%
+POM121L2	POM121 membrane glycoprotein-like 2 (rat)	8.3%
+POP1	"processing of precursor 1, ribonuclease P/MRP subunit (S. cerevisiae)"	5.6%
+POTEC	"POTE ankyrin domain family, member D; POTE ankyrin domain family, member C; POTE ankyrin domain family, member B"	19.4%
+POU2F1	POU class 2 homeobox 1	11.1%
+POU4F1	POU class 4 homeobox 1	8.3%
+POU5F1B	POU class 5 homeobox 1B	8.3%
+POU6F2	POU class 6 homeobox 2	52.8%
+PPAPDC1A	phosphatidic acid phosphatase type 2 domain containing 1A	8.3%
+PPARG	peroxisome proliferator-activated receptor gamma	5.6%
+PPFIA2	"protein tyrosine phosphatase, receptor type, f polypeptide (PTPRF), interacting protein (liprin), alpha 2"	13.9%
+PPIL1	peptidylprolyl isomerase (cyclophilin)-like 1	5.6%
+PPP1R9A	"protein phosphatase 1, regulatory (inhibitor) subunit 9A"	8.3%
+PRAME	preferentially expressed antigen in melanoma	58.3%
+PRCP	prolylcarboxypeptidase (angiotensinase C)	5.6%
+PRDM8	PR domain containing 8	5.6%
+PRG4	proteoglycan 4	5.6%
+PRKAG3	"protein kinase, AMP-activated, gamma 3 non-catalytic subunit"	19.4%
+PRKD1	protein kinase D1	19.4%
+PRKD2	protein kinase D2	5.6%
+PROP1	PROP paired-like homeobox 1	27.8%
+PROS1	protein S (alpha)	11.1%
+PROX1	prospero homeobox 1	5.6%
+PRR23C	FLJ46210 protein	5.6%
+PRTG	protogenin homolog (Gallus gallus)	5.6%
+PSG3	pregnancy specific beta-1-glycoprotein 3	8.3%
+PSG9	pregnancy specific beta-1-glycoprotein 9	25.0%
+PTPLAD1	protein tyrosine phosphatase-like A domain containing 1	8.3%
+PTPN21	"protein tyrosine phosphatase, non-receptor type 21"	8.3%
+PTPN23	"protein tyrosine phosphatase, non-receptor type 23"	11.1%
+PTPRB	"protein tyrosine phosphatase, receptor type, B"	11.1%
+PTPRR	"protein tyrosine phosphatase, receptor type, R"	8.3%
+PTS	6-pyruvoyltetrahydropterin synthase	8.3%
+PVRL3	poliovirus receptor-related 3	5.6%
+PWWP2A	PWWP domain containing 2A	5.6%
+PYHIN1	"pyrin and HIN domain family, member 1"	13.9%
+PZP	pregnancy-zone protein	38.9%
+QRFPR	pyroglutamylated RFamide peptide receptor	36.1%
+RAB27A	"RAB27A, member RAS oncogene family"	5.6%
+RAD54B	RAD54 homolog B (S. cerevisiae)	8.3%
+RAD54L2	RAD54-like 2 (S. cerevisiae)	16.7%
+RAET1E	retinoic acid early transcript 1E	47.2%
+RALGAPA2	chromosome 20 open reading frame 74	5.6%
+RALYL	RALY RNA binding protein-like	11.1%
+RASAL1	RAS protein activator like 1 (GAP1 like)	11.1%
+RBBP8	retinoblastoma binding protein 8	13.9%
+RBL1	retinoblastoma-like 1 (p107)	5.6%
+RBL2	retinoblastoma-like 2 (p130)	13.9%
+RCSD1	RCSD domain containing 1	13.9%
+RDH8	retinol dehydrogenase 8 (all-trans)	16.7%
+RET	ret proto-oncogene	13.9%
+REV1	REV1 homolog (S. cerevisiae)	5.6%
+REXO2	"REX2, RNA exonuclease 2 homolog (S. cerevisiae)"	11.1%
+RGPD3	RANBP2-like and GRIP domain containing 5; RANBP2-like and GRIP domain containing 4; RANBP2-like and GRIP domain containing 3; RANBP2-like and GRIP domain containing 8; RANBP2-like and GRIP domain containing 7; RANBP2-like and GRIP domain containing 6	5.6%
+RIMBP2	RIMS binding protein 2	11.1%
+RIMS2	regulating synaptic membrane exocytosis 2	5.6%
+RIOK1	RIO kinase 1 (yeast)	13.9%
+RNASEL	"ribonuclease L (2',5'-oligoisoadenylate synthetase-dependent)"	5.6%
+RNF144B	ring finger protein 144B	22.2%
+RNF182	ring finger protein 182	11.1%
+RNMT	RNA (guanine-7-) methyltransferase	13.9%
+ROCK1	"similar to Rho-associated, coiled-coil containing protein kinase 1; Rho-associated, coiled-coil containing protein kinase 1"	8.3%
+RP1	retinitis pigmentosa 1 (autosomal dominant)	36.1%
+RPS6KA2	"ribosomal protein S6 kinase, 90kDa, polypeptide 2; hypothetical LOC100127984"	5.6%
+RSPH3	radial spoke 3 homolog (Chlamydomonas)	22.2%
+RSU1	Ras suppressor protein 1	5.6%
+S100A6	S100 calcium binding protein A6	16.7%
+S100A8	S100 calcium binding protein A8	11.1%
+SACS	spastic ataxia of Charlevoix-Saguenay (sacsin)	13.9%
+SALL3	sal-like 3 (Drosophila)	16.7%
+SAMSN1	"SAM domain, SH3 domain and nuclear localization signals 1"	5.6%
+SCN3B	"sodium channel, voltage-gated, type III, beta"	8.3%
+SCN9A	"sodium channel, voltage-gated, type IX, alpha subunit"	5.6%
+SCRIB	scribbled homolog (Drosophila)	8.3%
+SDAD1	SDA1 domain containing 1	8.3%
+SEC16A	SEC16 homolog A (S. cerevisiae)	5.6%
+SEC31A	SEC31 homolog A (S. cerevisiae)	5.6%
+SELP	"selectin P (granule membrane protein 140kDa, antigen CD62)"	11.1%
+SEMA3F	"sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3F"	11.1%
+SEMA6D	"sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6D"	11.1%
+SENP6	SUMO1/sentrin specific peptidase 6	5.6%
+SERHL2	serine hydrolase-like 2	25.0%
+SERPINB10	"serpin peptidase inhibitor, clade B (ovalbumin), member 10"	30.6%
+SERPINB2	"serpin peptidase inhibitor, clade B (ovalbumin), member 2"	13.9%
+SETD4	SET domain containing 4	5.6%
+SETD5	SET domain containing 5	5.6%
+SFMBT2	Scm-like with four mbt domains 2	8.3%
+SGIP1	SH3-domain GRB2-like (endophilin) interacting protein 1	25.0%
+SH2B1	SH2B adaptor protein 1	8.3%
+SH3GL3	SH3-domain GRB2-like 3	16.7%
+SHARPIN	SHANK-associated RH domain interactor	8.3%
+SHQ1	SHQ1 homolog (S. cerevisiae)	41.7%
+SIGLEC11	sialic acid binding Ig-like lectin 11	5.6%
+SIGLEC12	sialic acid binding Ig-like lectin 12	25.0%
+SLC12A1	"solute carrier family 12 (sodium/potassium/chloride transporters), member 1"	30.6%
+SLC13A2	"solute carrier family 13 (sodium-dependent dicarboxylate transporter), member 2"	38.9%
+SLC17A8	"solute carrier family 17 (sodium-dependent inorganic phosphate cotransporter), member 8"	11.1%
+SLC25A26	"solute carrier family 25, member 26"	11.1%
+SLC25A3	"solute carrier family 25 (mitochondrial carrier; phosphate carrier), member 3"	8.3%
+SLC26A10	"RhoA/RAC/CDC42 exchange factor; solute carrier family 26, member 10"	5.6%
+SLC26A8	"solute carrier family 26, member 8"	38.9%
+SLC29A3	"solute carrier family 29 (nucleoside transporters), member 3; Sp9 transcription factor homolog (mouse)"	47.2%
+SLC2A3	"solute carrier family 2 (facilitated glucose transporter), member 3"	8.3%
+SLC35F1	"solute carrier family 35, member F1"	5.6%
+SLC5A3	"solute carrier family 5 (sodium/myo-inositol cotransporter), member 3"	16.7%
+SLC7A2	"solute carrier family 7 (cationic amino acid transporter, y+ system), member 2"	27.8%
+SLC9A9	"solute carrier family 9 (sodium/hydrogen exchanger), member 9"	19.4%
+SLCO5A1	"solute carrier organic anion transporter family, member 5A1"	8.3%
+SLFN12L	schlafen family member 12-like	80.6%
+SLITRK5	"SLIT and NTRK-like family, member 5"	16.7%
+SMC3	structural maintenance of chromosomes 3	5.6%
+SMNDC1	survival motor neuron domain containing 1	13.9%
+SNTG1	"syntrophin, gamma 1"	5.6%
+SOCS2	suppressor of cytokine signaling 2	11.1%
+SON	SON DNA binding protein	22.2%
+SORBS1	sorbin and SH3 domain containing 1	11.1%
+SORT1	sortilin 1	5.6%
+SP100	SP100 nuclear antigen	8.3%
+SPAG6	sperm associated antigen 6	5.6%
+SPATA6	spermatogenesis associated 6	50.0%
+SPHKAP	"SPHK1 interactor, AKAP domain containing"	38.9%
+SPICE1	NA	8.3%
+SPTA1	"spectrin, alpha, erythrocytic 1 (elliptocytosis 2)"	19.4%
+SRSF7	NA	13.9%
+SSTR3	somatostatin receptor 3	5.6%
+ST3GAL4	"ST3 beta-galactoside alpha-2,3-sialyltransferase 4"	5.6%
+ST7L	suppression of tumorigenicity 7 like	44.4%
+ST8SIA6	"ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 6"	5.6%
+STAB2	stabilin 2	11.1%
+STAG1	stromal antigen 1	5.6%
+STARD3	StAR-related lipid transfer (START) domain containing 3	77.8%
+STOML1	stomatin (EPB72)-like 1	5.6%
+STRA6	stimulated by retinoic acid gene 6 homolog (mouse)	5.6%
+STT3B	"STT3, subunit of the oligosaccharyltransferase complex, homolog B (S. cerevisiae)"	5.6%
+SULT2A1	"sulfotransferase family, cytosolic, 2A, dehydroepiandrosterone (DHEA)-preferring, member 1"	5.6%
+SUPV3L1	"suppressor of var1, 3-like 1 (S. cerevisiae)"	5.6%
+SV2B	synaptic vesicle glycoprotein 2B; hypothetical protein LOC100128403	8.3%
+SVEP1	"sushi, von Willebrand factor type A, EGF and pentraxin domain containing 1"	5.6%
+SVIL	supervillin	44.4%
+SVOP	SV2 related protein homolog (rat)	11.1%
+SYT4	synaptotagmin IV	13.9%
+SYT7	synaptotagmin XVII; synaptotagmin VII	5.6%
+TAOK2	TAO kinase 2	5.6%
+TAS2R31	"taste receptor, type 2, member 31"	16.7%
+TATDN1	TatD DNase domain containing 1	8.3%
+TBCEL	tubulin folding cofactor E-like	11.1%
+TCF7L2	"transcription factor 7-like 2 (T-cell specific, HMG-box)"	16.7%
+TEAD3	TEA domain family member 3	5.6%
+TECRL	steroid 5 alpha-reductase 2-like 2	8.3%
+TECTA	tectorin alpha	13.9%
+TET2	tet oncogene family member 2	33.3%
+TGFBR2	"transforming growth factor, beta receptor II (70/80kDa)"	8.3%
+TIGD7	tigger transposable element derived 7	8.3%
+TLR4	toll-like receptor 4	13.9%
+TM4SF19	transmembrane 4 L six family member 19	77.8%
+TMC1	transmembrane channel-like 1	8.3%
+TMED2	transmembrane emp24 domain trafficking protein 2	11.1%
+TMEM132B	transmembrane protein 132B; hypothetical LOC121296	11.1%
+TMEM136	transmembrane protein 136	11.1%
+TMEM147	transmembrane protein 147	11.1%
+TMEM200A	transmembrane protein 200A	8.3%
+TMPRSS13	"transmembrane protease, serine 13"	11.1%
+TMPRSS15	NA	8.3%
+TMTC1	transmembrane and tetratricopeptide repeat containing 1	5.6%
+TMUB2	transmembrane and ubiquitin-like domain containing 2	5.6%
+TNC	tenascin C	8.3%
+TNR	"tenascin R (restrictin, janusin)"	5.6%
+TP53	tumor protein p53	86.1%
+TPMT	thiopurine S-methyltransferase	13.9%
+TPR	translocated promoter region (to activated MET oncogene)	25.0%
+TPTE	transmembrane phosphatase with tensin homology	5.6%
+TRAK1	"trafficking protein, kinesin binding 1"	13.9%
+TRAK2	"trafficking protein, kinesin binding 2"	8.3%
+TRERF1	transcriptional regulating factor 1	5.6%
+TRIM33	tripartite motif-containing 33	13.9%
+TRIM48	tripartite motif-containing 53; similar to Tripartite motif protein 49 (RING finger protein 18) (Testis-specific ring-finger protein); similar to ring finger protein 18; similar to hCG1988749; tripartite motif-containing 49; tripartite motif-containing 48; hypothetical protein LOC100131392	19.4%
+TRIM58	tripartite motif-containing 58	36.1%
+TRPC1	"transient receptor potential cation channel, subfamily C, member 1"	8.3%
+TRPS1	trichorhinophalangeal syndrome I	8.3%
+TRPV4	"transient receptor potential cation channel, subfamily V, member 4"	11.1%
+TSC1	tuberous sclerosis 1	5.6%
+TSC2	tuberous sclerosis 2	8.3%
+TSNARE1	t-SNARE domain containing 1	50.0%
+TST	thiosulfate sulfurtransferase (rhodanese)	5.6%
+TTC23	tetratricopeptide repeat domain 23	5.6%
+TTC29	tetratricopeptide repeat domain 29	33.3%
+TTLL13	"tubulin tyrosine ligase-like family, member 13"	38.9%
+TTLL2	"tubulin tyrosine ligase-like family, member 2"	11.1%
+TTLL7	"tubulin tyrosine ligase-like family, member 7"	5.6%
+TUBA3C	"tubulin, alpha 3d; tubulin, alpha 3c"	13.9%
+TUBD1	"tubulin, delta 1"	50.0%
+TUBGCP5	"tubulin, gamma complex associated protein 5"	16.7%
+TULP1	tubby like protein 1	44.4%
+TYK2	tyrosine kinase 2	5.6%
+TYSND1	trypsin domain containing 1	5.6%
+UBE2Q1	ubiquitin-conjugating enzyme E2Q family member 1	30.6%
+UBE2Q2	ubiquitin-conjugating enzyme E2Q family member 2	25.0%
+UBE3B	ubiquitin protein ligase E3B	13.9%
+UBN2	ubinuclein 2	13.9%
+UBR4	ubiquitin protein ligase E3 component n-recognin 4	5.6%
+UCKL1	uridine-cytidine kinase 1-like 1	8.3%
+UFC1	ubiquitin-fold modifier conjugating enzyme 1	13.9%
+UGT1A9	"UDP glucuronosyltransferase 1 family, polypeptide A3; UDP glucuronosyltransferase 1 family, polypeptide A5; UDP glucuronosyltransferase 1 family, polypeptide A4; UDP glucuronosyltransferase 1 family, polypeptide A7; UDP glucuronosyltransferase 1 family, polypeptide A6; UDP glucuronosyltransferase 1 family, polypeptide A10; UDP glucuronosyltransferase 1 family, polypeptide A9; UDP glucuronosyltransferase 1 family, polypeptide A8; UDP glucuronosyltransferase 1 family, polypeptide A1"	5.6%
+UGT2B7	"UDP glucuronosyltransferase 2 family, polypeptide B7"	5.6%
+UNC13B	unc-13 homolog B (C. elegans)	13.9%
+UNC93A	unc-93 homolog A (C. elegans)	22.2%
+USH2A	"Usher syndrome 2A (autosomal recessive, mild)"	55.6%
+USP18	ubiquitin specific peptidase 18	52.8%
+USP2	ubiquitin specific peptidase 2	11.1%
+USP21	ubiquitin specific peptidase 21	13.9%
+USP24	ubiquitin specific peptidase 24	11.1%
+USP29	ubiquitin specific peptidase 29	69.4%
+USP34	ubiquitin specific peptidase 34	25.0%
+UTP20	"similar to Down-regulated in metastasis protein (Key-1A6 protein) (Novel nucleolar protein 73) (NNP73); UTP20, small subunit (SSU) processome component, homolog (yeast)"	11.1%
+UVRAG	UV radiation resistance associated gene	5.6%
+VAC14	Vac14 homolog (S. cerevisiae)	8.3%
+VAV3	vav 3 guanine nucleotide exchange factor	25.0%
+VCL	vinculin	5.6%
+VENTX	VENT homeobox homolog (Xenopus laevis)	8.3%
+VIPR1	vasoactive intestinal peptide receptor 1	13.9%
+VN1R4	similar to Vomeronasal type-1 receptor 4; vomeronasal 1 receptor 4	52.8%
+VPRBP	Vpr (HIV-1) binding protein	13.9%
+VPS13B	vacuolar protein sorting 13 homolog B (yeast)	25.0%
+VPS36	vacuolar protein sorting 36 homolog (S. cerevisiae)	13.9%
+WAPAL	wings apart-like homolog (Drosophila)	19.4%
+WDR11	bromodomain and WD repeat domain containing 2	8.3%
+WDR48	WD repeat domain 48	11.1%
+WDR66	WD repeat domain 66	11.1%
+WDR72	WD repeat domain 72	30.6%
+WDR93	WD repeat domain 93	11.1%
+WIPF2	"WAS/WASL interacting protein family, member 2"	5.6%
+WNT3	"wingless-type MMTV integration site family, member 3"	8.3%
+WNT5A	"wingless-type MMTV integration site family, member 5A"	13.9%
+WNT9B	"wingless-type MMTV integration site family, member 9B"	8.3%
+XIRP2	xin actin-binding repeat containing 2	11.1%
+XPC	"xeroderma pigmentosum, complementation group C"	41.7%
+XPO4	exportin 4	52.8%
+YIPF7	"Yip1 domain family, member 7"	5.6%
+YTHDF1	"YTH domain family, member 1"	8.3%
+ZBP1	Z-DNA binding protein 1	5.6%
+ZBTB20	zinc finger and BTB domain containing 20	8.3%
+ZDHHC17	"zinc finger, DHHC-type containing 17"	11.1%
+ZEB1	zinc finger E-box binding homeobox 1	5.6%
+ZEB2	zinc finger E-box binding homeobox 2	11.1%
+ZFAND3	"zinc finger, AN1-type domain 3"	8.3%
+ZFP106	zinc finger protein 106 homolog (mouse)	19.4%
+ZFP112	zinc finger protein 112 homolog (mouse)	13.9%
+ZFP42	zinc finger protein 42 homolog (mouse)	8.3%
+ZFP64	zinc finger protein 64 homolog (mouse)	5.6%
+ZFPM2	"zinc finger protein, multitype 2"	8.3%
+ZHX2	zinc fingers and homeoboxes 2	8.3%
+ZIC1	"Zic family member 1 (odd-paired homolog, Drosophila)"	13.9%
+ZIM2	"paternally expressed 3; PEG3 antisense RNA (non-protein coding); zinc finger, imprinted 2"	33.3%
+ZMYM2	"zinc finger, MYM-type 2"	13.9%
+ZNF107	zinc finger protein 107	5.6%
+ZNF117	zinc finger protein 117	5.6%
+ZNF133	zinc finger protein 133	19.4%
+ZNF138	zinc finger protein 138	63.9%
+ZNF214	zinc finger protein 214	5.6%
+ZNF230	zinc finger protein 230	30.6%
+ZNF257	zinc finger protein 257	8.3%
+ZNF286B	zinc finger protein 286B	50.0%
+ZNF317	zinc finger protein 317	33.3%
+ZNF318	zinc finger protein 318	5.6%
+ZNF382	zinc finger protein 382	11.1%
+ZNF383	zinc finger protein 383	11.1%
+ZNF408	zinc finger protein 408	8.3%
+ZNF425	zinc finger protein 425	5.6%
+ZNF429	zinc finger protein 429	5.6%
+ZNF461	zinc finger protein 461	11.1%
+ZNF462	zinc finger protein 462	27.8%
+ZNF479	zinc finger protein 479; zinc finger protein 733	13.9%
+ZNF511	zinc finger protein 511	8.3%
+ZNF518A	zinc finger protein 518A	5.6%
+ZNF536	zinc finger protein 536	16.7%
+ZNF560	zinc finger protein 560	8.3%
+ZNF573	zinc finger protein 573	13.9%
+ZNF583	zinc finger protein 583	16.7%
+ZNF609	zinc finger protein 609	5.6%
+ZNF610	zinc finger protein 610	5.6%
+ZNF615	zinc finger protein 615	38.9%
+ZNF644	zinc finger protein 644	16.7%
+ZNF679	zinc finger protein 679; zinc finger protein 735	5.6%
+ZNF681	zinc finger protein 681	5.6%
+ZNF687	zinc finger protein 687	5.6%
+ZNF7	zinc finger protein 7	8.3%
+ZNF704	zinc finger protein 704	8.3%
+ZNF721	zinc finger protein 721	5.6%
+ZNF727	zinc finger protein 727	5.6%
+ZNF80	zinc finger protein 80	8.3%
+ZNF805	zinc finger protein 805	13.9%
+ZNF836	zinc finger protein 836	8.3%
+ZNF98	zinc finger protein 98 (F7175); keratin associated protein 1-1; zinc finger protein 492; zinc finger protein 849 pseudogene	5.6%
+ZNF99	zinc finger protein 99	25.0%
+ZSCAN29	zinc finger and SCAN domain containing 29	11.1%
